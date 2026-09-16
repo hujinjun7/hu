@@ -1,0 +1,280 @@
+/* =========================
+  기본 설정
+========================= */
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   padding: 45px 20px;
+   font-family: Arial, "Noto Sans KR", sans-serif;
+   line-height: 1.7;
+}
+
+header,
+main,
+nav,
+footer {
+   width: 100%;
+   max-width: 850px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+header {
+   margin-bottom: 35px;
+}
+
+h1 {
+   margin-top: 0;
+}
+
+h2 {
+   margin-top: 30px;
+}
+
+section {
+   margin-bottom: 28px;
+}
+
+img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+   margin: 20px auto;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+nav {
+   margin-top: 40px;
+}
+
+footer {
+   margin-top: 40px;
+   font-size: 14px;
+}
+
+
+/* =========================
+  메인 페이지
+  파란색 캠퍼스 가이드 스타일
+========================= */
+
+.home-page {
+   background-color: #eef6ff;
+   color: #25364d;
+}
+
+.home-page header {
+   background-color: #1769aa;
+   color: white;
+   padding: 40px 30px;
+   border-radius: 12px;
+   text-align: center;
+}
+
+.home-page h1 {
+   font-size: 42px;
+   letter-spacing: 2px;
+}
+
+.home-page h2 {
+   color: #1769aa;
+   border-bottom: 3px solid #73a9d8;
+   padding-bottom: 8px;
+}
+
+.home-page section {
+   background-color: white;
+   padding: 25px;
+
+   border-radius: 12px;
+   border: 1px solid #cbdff0;
+}
+
+.home-page img {
+   border-radius: 8px;
+}
+
+.home-page a {
+   color: #0b5b9d;
+   font-weight: bold;
+}
+
+
+/* =========================
+  니콜스관
+  차분한 학술 스타일
+========================= */
+
+.nichols-page {
+   background-color: #edf1f4;
+   color: #303942;
+}
+
+.nichols-page header {
+   padding: 30px;
+   border-left: 8px solid #445d73;
+   background-color: #ffffff;
+}
+
+.nichols-page h1 {
+   color: #344b5e;
+   font-size: 38px;
+}
+
+.nichols-page h2 {
+   color: #445d73;
+   border-bottom: 1px solid #8799a8;
+   padding-bottom: 7px;
+}
+
+.nichols-page section {
+   background-color: white;
+   padding: 22px 26px;
+   border-left: 3px solid #9babb8;
+}
+
+.nichols-page img {
+   border-radius: 2px;
+   border: 5px solid white;
+   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.nichols-page a {
+   color: #365f7d;
+}
+
+
+/* =========================
+  대운동장
+  활동적인 스포츠 스타일
+========================= */
+
+.stadium-page {
+   background-color: #fff4e6;
+   color: #382d25;
+}
+
+.stadium-page header {
+   background-color: #e96b2c;
+   color: white;
+   padding: 35px 28px;
+   border-radius: 4px;
+}
+
+.stadium-page h1 {
+   font-size: 44px;
+   text-transform: uppercase;
+}
+
+.stadium-page h2 {
+   color: #c6501b;
+   border-left: 7px solid #f39a4b;
+   padding-left: 12px;
+}
+
+.stadium-page section {
+   background-color: #ffffff;
+   padding: 24px;
+   border-radius: 5px;
+   box-shadow: 4px 4px 0 #f2c49d;
+}
+
+.stadium-page img {
+   border-radius: 4px;
+}
+
+.stadium-page a {
+   color: #bd4918;
+   font-weight: bold;
+}
+
+
+/* =========================
+  김수환관
+  현대적인 건축 스타일
+========================= */
+
+.kim-page {
+   background-color: #f3f0f7;
+   color: #37333d;
+}
+
+.kim-page header {
+   text-align: center;
+   padding: 38px 25px;
+   background-color: #55486c;
+   color: white;
+   border-radius: 20px 20px 4px 4px;
+}
+
+.kim-page h1 {
+   font-size: 40px;
+   letter-spacing: 3px;
+}
+
+.kim-page h2 {
+   color: #67557e;
+   border-bottom: 3px dotted #a99bb9;
+   padding-bottom: 9px;
+}
+
+.kim-page section {
+   background-color: white;
+   padding: 25px;
+
+   border-radius: 18px 4px 18px 4px;
+}
+
+.kim-page img {
+   border-radius: 18px 4px 18px 4px;
+}
+
+.kim-page a {
+   color: #654d82;
+}
+
+
+/* =========================
+  내비게이션 / 하단
+========================= */
+
+nav {
+   padding-top: 20px;
+   border-top: 1px solid #aaaaaa;
+}
+
+footer {
+   padding-top: 15px;
+   border-top: 1px solid #cccccc;
+}
+
+
+/* =========================
+  모바일 반응형 디자인
+========================= */
+
+@media (max-width: 600px) {
+
+   body {
+       padding: 20px 14px;
+   }
+
+   header {
+       margin-bottom: 22px;
+   }
+
+   .home-page h1,
+   .nichols-page h1,
+   .stadium-page h1,
+
