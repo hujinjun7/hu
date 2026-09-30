@@ -1,1 +1,173 @@
+* {
+ box-sizing: border-box;
+}
 
+body {
+ margin: 0;
+ font-family: Arial, "Noto Sans KR", sans-serif;
+ background: #f4f6fb;
+ color: #222;
+}
+
+header {
+ text-align: center;
+ padding: 35px 20px;
+ background: #172554;
+ color: white;
+}
+
+header h1 {
+ margin: 0 0 10px;
+ font-size: 36px;
+}
+
+header p {
+ margin: 0;
+ opacity: 0.85;
+}
+
+main {
+ width: min(900px, 94%);
+ margin: 35px auto;
+}
+
+.game-section,
+.report-section {
+ background: white;
+ padding: 28px;
+ margin-bottom: 30px;
+ border-radius: 16px;
+ box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.section-title {
+ text-align: center;
+}
+
+.section-title h2 {
+ margin-top: 0;
+}
+
+.section-title p {
+ color: #666;
+ line-height: 1.7;
+}
+
+.game-info {
+ display: flex;
+ justify-content: center;
+ gap: 15px;
+ margin: 25px 0 15px;
+}
+
+.info-box {
+ width: 150px;
+ padding: 12px;
+ background: #eef2ff;
+ border-radius: 10px;
+ text-align: center;
+}
+
+.info-box span {
+ display: block;
+ font-size: 13px;
+ color: #666;
+}
+
+.info-box strong {
+ display: block;
+ margin-top: 5px;
+ font-size: 24px;
+ color: #172554;
+}
+
+canvas {
+ display: block;
+ width: 100%;
+ max-width: 700px;
+ height: auto;
+ margin: auto;
+ background: #050816;
+ border-radius: 12px;
+}
+
+.game-buttons {
+ display: flex;
+ justify-content: center;
+ gap: 10px;
+ margin-top: 20px;
+}
+
+button {
+ border: none;
+ padding: 11px 22px;
+ border-radius: 8px;
+ cursor: pointer;
+ font-size: 15px;
+ font-weight: bold;
+}
+
+#startBtn {
+ background: #2563eb;
+ color: white;
+}
+
+#resetBtn {
+ background: #e5e7eb;
+}
+
+button:hover {
+ opacity: 0.85;
+}
+
+.control {
+ text-align: center;
+ color: #777;
+ font-size: 14px;
+}
+
+.report-section h2 {
+ margin-top: 0;
+}
+
+.report-section p {
+ line-height: 1.7;
+ color: #666;
+}
+
+#history {
+ margin-top: 20px;
+ padding: 20px;
+ background: #f8fafc;
+ border-radius: 10px;
+ line-height: 1.8;
+}
+
+footer {
+ text-align: center;
+ padding: 25px;
+ color: #777;
+}
+
+
+@media (max-width: 600px) {
+
+ header h1 {
+   font-size: 28px;
+ }
+
+ .game-section,
+ .report-section {
+   padding: 18px;
+ }
+
+ .game-info {
+   gap: 8px;
+ }
+
+ .info-box {
+   width: 120px;
+
+ }
+
+}
